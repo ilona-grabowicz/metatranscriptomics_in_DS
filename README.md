@@ -36,4 +36,6 @@ Then for the predicted genes we found orthologs using eggNOGmapper with the defa
 python folder_with_eggNOGmapper/eggnog-mapper-1.0.3/emapper.py -i 
 meta_genemark_predicted_sequences/input_file.faa --output output_file_eggNOG --cpu 10 -m diamond 
 
+### Replacing IDs with gene names, normalizing gene expression counts and calculating average gene expressions if they had multiple occurrences in different bacteria.
 
+python3 replace_ids.py
